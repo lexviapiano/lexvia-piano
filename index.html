@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>렉스비아 피아노 – 아이들을 위한 특별한 피아노 교육</title>
+
+    <!-- Google Font: Noto Sans KR -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet" />
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .program-image-box {
+            width: 320px;
+            height: 320px;
+            border: 1px solid #e0e0e0;
+            border-radius: 16px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fafafa;
+            margin: 0 auto;
+        }
+        .program-image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        @media (max-width: 600px) {
+            .program-image-box {
+                width: 90vw;
+                height: 90vw;
+                max-width: 320px;
+                max-height: 320px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Floating Call Button -->
+    <a href="tel:010-9469-1308" class="floating-call" aria-label="상담 전화하기">📞</a>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero">
+        <div class="container hero__inner" data-aos="fade-up">
+            <div class="hero__text">
+                <h1 class="hero__title">렉스비아 피아노</h1>
+                <h2 class="hero__subtitle">아이들을 위한 특별한 피아노 교육</h2>
+                <p class="hero__tagline">전문적이고 체계적인 피아노 교육으로 아이들의 음악적 재능을 키워갑니다</p>
+                <a href="tel:010-9469-1308" class="btn btn--primary hero__cta">상담 전화하기</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 특장점 Section -->
+    <section id="features" class="features" data-aos="fade-up">
+        <div class="container">
+            <h3 class="section-heading">렉스비아의 특장점</h3>
+            <div class="features__grid">
+                <div class="feature-card">
+                    <span class="feature-card__icon">🎹</span>
+                    <h4 class="feature-card__title">전문 피아노 교육</h4>
+                    <p class="feature-card__desc">체계적인 커리큘럼으로 단계별 학습</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-card__icon">🏅</span>
+                    <h4 class="feature-card__title">콩쿨 참가 지원</h4>
+                    <p class="feature-card__desc">전국 단위 콩쿨대회 참가 지원</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-card__icon">🌟</span>
+                    <h4 class="feature-card__title">개인 맞춤 수업</h4>
+                    <p class="feature-card__desc">학생 개개인의 특성에 맞춘 수업</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-card__icon">🎼</span>
+                    <h4 class="feature-card__title">융합 교육</h4>
+                    <p class="feature-card__desc">음악과 다른 과목을 접목한 창의적 수업</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 프로그램 안내 1 - 콩쿨참가 -->
+    <section id="program1" class="program-section" data-aos="fade-up">
+        <div class="container">
+            <div class="program-layout">
+                <div class="program-content">
+                    <h3 class="program-title">콩쿨참가 및 피아노급수시험 참가</h3>
+                    <div class="program-body">
+                        <div class="program-feature">
+                            <h4 class="program-subtitle">주요 특징</h4>
+                            <ul class="program-list">
+                                <li>피아노 급수 시험의 체계적 준비</li>
+                                <li>전국 단위의 학생 콩쿨대회 참가</li>
+                            </ul>
+                        </div>
+                        <div class="program-feature">
+                            <h4 class="program-subtitle">교육 효과</h4>
+                            <ul class="program-list">
+                                <li>무대 경험을 통한 자신감 향상</li>
+                                <li>목표 달성을 통한 성취감 향상</li>
+                            </ul>
+                        </div>
+                        <div class="program-award">
+                            <span class="award-icon">🏆</span>
+                            <p>피아노부문 최우수상 수상<br>제326회 한국음악전국학생예술콩쿠르</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-image">
+                    <div class="program-image-box">
+                        <img src="kc.jpg" alt="콩쿨 참가 사진">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 프로그램 안내 2 - 예술융합교육 -->
+    <section id="program2" class="program-section program-section--alt" data-aos="fade-up">
+        <div class="container">
+            <div class="program-layout">
+                <div class="program-content">
+                    <h3 class="program-title">예술융합교육 진행</h3>
+                    <div class="program-body">
+                        <div class="program-feature">
+                            <h4 class="program-subtitle">주요 특징</h4>
+                            <ul class="program-list">
+                                <li>창의성과 감성개발을 위한 체계적 프로그램</li>
+                                <li>음악 이외 다른 과목을 접목한 수업</li>
+                            </ul>
+                        </div>
+                        <div class="program-feature">
+                            <h4 class="program-subtitle">교육 효과</h4>
+                            <ul class="program-list">
+                                <li>자신감 향상</li>
+                                <li>창의력 발달 등 긍정적 효과</li>
+                                <li>음악적 지식을 배움으로 정서적 발달에 도움</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-image">
+                    <div class="program-image-box">
+                        <img src="art.jpg" alt="예술융합교육 사진">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 문의 및 상담 Section -->
+    <section id="contact" class="contact" data-aos="fade-up">
+        <div class="container">
+            <h3 class="section-heading">문의 및 상담</h3>
+            <p class="contact__text">언제든지 연락주세요. 상담 및 체험수업이 가능합니다.</p>
+            <div class="contact__info-grid">
+                <div class="contact__info">
+                    <strong>전화번호</strong>
+                    <span><a href="tel:010-9469-1308">010-9469-1308</a></span>
+                </div>
+                <div class="contact__info">
+                    <strong>위치</strong>
+                    <span>북수원자이렉스비아 114동</span>
+                </div>
+                <div class="contact__info">
+                    <strong>수업 일정</strong>
+                    <span>주2회 및 주3회</span>
+                </div>
+            </div>
+            <a href="tel:010-9469-1308" class="btn btn--secondary contact__cta">지금 전화하기</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <span class="footer__brand">LEXVIA Piano</span>
+            <span class="footer__copy">©2025 LEXVIA Piano</span>
+        </div>
+    </footer>
+
+    <!-- AOS Script & Main Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
